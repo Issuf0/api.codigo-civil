@@ -1,0 +1,28 @@
+Perguntas sobre números de artigos específicos:
+* "Qual o corpo do Art.º 1º?"
+* "Explica o Artigo 178º"
+* "O que diz o Art.º 125º?"
+
+Perguntas sobre palavras-chave no título ou corpo do artigo:
+* "O que são fontes imediatas do direito?"
+* "Fala sobre a ignorância da lei"
+* "Quais são as causas de extinção de uma associação?"
+* "Explica o conceito de posse"
+* "O que é um contrato de mútuo?"
+
+Perguntas combinadas (número do artigo e palavra-chave):
+* "Qual o regime da anulabilidade no Art.º 178º?"
+* "Explica o Art.º 125º sobre a anulabilidade dos actos dos menores"
+
+Novos Prompts Sugeridos:
+* "O que é a cessação da vigência da lei segundo o Art.º 7º?"
+* "Descreva o Artigo 334º sobre abuso do direito."
+* "Quais são os deveres do locatário de acordo com o Art.º 1038º?"
+* "Explique o Artigo 483º - Princípio general da responsabilidade civil."
+* "Fale sobre a hipoteca legal, conforme o Art.º 705º."
+* "Quais são os efeitos do divórcio?"
+* "O que é o poder paternal e quem o exerce?"
+* "Descreva os requisitos para a usucapião de imóveis sem registo."
+* "Quais são as obrigações dos pais em relação aos filhos, segundo o Art.º 1878º?"
+* "Explique o Artigo 1146º sobre usura em contratos de mútuo."
+
