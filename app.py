@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 
 from datetime import datetime, timedelta, timezone
 from flask import Flask,jsonify
@@ -21,7 +22,7 @@ from Controllers.ChatbotController import blp as ChatbotBlueprint
 # def create_app(db_url=None):
 
 app = Flask(__name__)
-
+load_dotenv()
 CORS(app)
 
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
