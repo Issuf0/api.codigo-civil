@@ -31,7 +31,10 @@ app.config["OPENAPI_VERSION"] = "3.0.3"
 app.config["OPENAPI_URL_PREFIX"] = "/"
 app.config["OPENAPI_SWAGGER_UI_PATH"] = "swagger-ui"
 app.config["OPENAPI_SWAGGER_UI_URL"] = "https://cdn.jsdelivr.net/npm/swagger-ui-dist/"
-app.config["SQLALCHEMY_DATABASE_URI"] = f'mysql+pymysql://{db_config.usename}:{db_config.password}@{db_config.host}/{db_config.db_name}'
+# Prefer an explicit URI from db_config if provided (Railway). Fall back to
+# legacy fields for backward compatibility.
+app.config["SQLALCHEMY_DATABASE_URI"] = getattr(db_config, 'SQLALCHEMY_DATABASE_URI',
+                                                   f'mysql+pymysql://{getattr(db_config, "usename", db_config.username)}:{db_config.password}@{getattr(db_config, "host", db_config.host)}/{getattr(db_config, "db_name", db_config.db_name)}')
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
 
