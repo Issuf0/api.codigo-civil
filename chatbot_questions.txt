@@ -26,3 +26,12 @@ Novos Prompts Sugeridos:
 * "Quais são as obrigações dos pais em relação aos filhos, segundo o Art.º 1878º?"
 * "Explique o Artigo 1146º sobre usura em contratos de mútuo."
 
+Testes de Humanização, Casos Práticos e Explicações Simples:
+* "O que é herança? Explica-me como se eu fosse uma criança."
+* "Meu vizinho construiu um muro que invade o meu quintal. O que é que o Código Civil diz sobre este tipo de situação?"
+* "Podes me dar um exemplo prático de como funciona o usufruto?"
+* "O que acontece se eu emprestar um carro a um amigo e ele tiver um acidente? Quem é responsável segundo o código?"
+* "Explica de forma muito simples: qual a diferença entre posse e propriedade?"
+* "Um menor de 16 anos pode assinar um contrato de compra e venda sozinho? O que diz a lei?"
+* "O que é o abuso do direito? Podes dar um exemplo do dia-a-dia?"
+* "Se eu encontrar um objeto perdido na rua, ele passa a ser meu? Como funciona a ocupação?"
