@@ -32,6 +32,117 @@ Testes de Humanização, Casos Práticos e Explicações Simples:
 * "Podes me dar um exemplo prático de como funciona o usufruto?"
 * "O que acontece se eu emprestar um carro a um amigo e ele tiver um acidente? Quem é responsável segundo o código?"
 * "Explica de forma muito simples: qual a diferença entre posse e propriedade?"
-* "Um menor de 16 anos pode assinar um contrato de compra e venda sozinho? O que diz a lei?"
+* "
+"
 * "O que é o abuso do direito? Podes dar um exemplo do dia-a-dia?"
 * "Se eu encontrar um objeto perdido na rua, ele passa a ser meu? Como funciona a ocupação?"
+
+
+--- PROMPT DE ADMINISTRAÇÃO (Para Gerar Novos Códigos) ---
+Copie e envie este comando para o Agente quando precisar de mais códigos:
+"Por favor, execute o script 'generate_codes.py' para gerar um novo lote de 100 códigos de acesso (uso único, validade 30 dias) e atualize a lista neste arquivo."
+
+
+--- CÓDIGOS DE ACESSO (PREMIUM) ---
+IMPORTANTE: Estes códigos são de USO ÚNICO e válidos por 30 DIAS.
+Use um destes códigos no campo 'access_code' da sua requisição:
+
+
+BEOYD386
+4RSRKR9P
+72W4H8P2
+SMKX7WLB
+QMQT2TMM
+3KPQTI45
+5SEOQNRW
+8CWLBCWZ
+BCK92G3O
+6EUDO7KQ
+I2YCOIDH
+U5U9WPGQ
+XABOQNHE
+D7E353AC
+RTOOQFLK
+35JL2WIW
+ALVH6LUV
+JR9QUCGB
+BU3NO7FQ
+50TYISGZ
+3BDSSFQ9
+POLWE17C
+QQMXWLLH
+EHHJ4VVO
+E7USOMBG
+FC71EGFX
+YGVNS895
+W6OPDTJO
+IWHYIRQK
+P3I60M64
+60K5LCFS
+2RWBCWCB
+BR8IM1NG
+9L1DU46P
+4YN2SH0D
+GNS0C9R8
+UJOIX9G4
+ES9QIYHY
+HM0I2AU4
+APWCIYXT
+E9APSFKZ
+LHDVQWPW
+7BPNDSJ3
+XOEB6Q0L
+KXZ2F9R3
+SOM0BBNG
+NREBCI2L
+Z7MM8GFU
+PG4NT5KL
+SP4B9VF7
+7ZR685JG
+SUTNNY7W
+OAINK0CO
+UI7D8COO
+OKQG2S11
+Q2N9NQ9F
+4OWZUXMK
+XCVPAXT9
+CLQF1KIF
+548TER95
+4KBV1GCD
+QFK5T15U
+QYQJ5DHM
+13IR2914
+X5TIFZA5
+ORAL0V42
+79YVWOV0
+RYIXOXAL
+8ET75RV5
+YQSKR904
+P2R72FZE
+SCG8ME8D
+EW9A5P23
+ZTIARZND
+KRODIJA2
+FZFS2FDZ
+S0NYN8HZ
+5NFCL469
+7ZN6XLK4
+2MIPN0KK
+PCWBVEH8
+TKTAQK3L
+H1K4XU03
+LV0I8X79
+NW3T83RW
+TQ4PDXGL
+X5R9832G
+40V7JGET
+WBPQBW9U
+VG5L8YXO
+HP5FP4EL
+0ITL708N
+WZLN0E3D
+ZSBSZJCN
+Q35CPTBU
+6Z5OV8X3
+YI6M2XRY
+8CITOJEU
