@@ -21,19 +21,8 @@ class Chatbot(MethodView):
         if not valid_code:
             abort(403, message="Invalid access code.")
             
-        if valid_code.is_used:
-            abort(403, message="Access code has already been used.")
-            
         if valid_code.expires_at < datetime.utcnow():
             abort(403, message="Access code has expired.")
-
-        # Mark code as used
-        try:
-            valid_code.is_used = True
-            db.session.commit()
-        except Exception as e:
-            db.session.rollback()
-            abort(500, message="Error processing access code.")
 
         query = request.json.get("query")
         if not query:

@@ -38,6 +38,45 @@ Testes de Humanização, Casos Práticos e Explicações Simples:
 * "Se eu encontrar um objeto perdido na rua, ele passa a ser meu? Como funciona a ocupação?"
 
 
+--- EXEMPLO DE INTEGRAÇÃO FRONTEND (MODO PREMIUM) ---
+export const fetchChatbotResponse = async (query, accessCode) => {
+  const API_URL = 'http://10.53.21.102:5000/api/chatbot';
+  
+  try {
+    const response = await fetch(API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      // Backend agora aceita múltiplas perguntas com o mesmo código
+      body: JSON.stringify({ 
+        query, 
+        access_code: accessCode 
+      }),
+    });
+
+    if (response.status === 403) {
+      const errorData = await response.json();
+      throw new Error(errorData.message || 'Código PREMIUM inválido ou expirado.');
+    }
+
+    if (response.status === 401) {
+      throw new Error('O código de acesso PREMIUM é obrigatório.');
+    }
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      throw new Error(errorData.message || 'Erro na resposta do servidor');
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error('Erro ao chamar API do chatbot:', error);
+    throw error;
+  }
+};
+
+
 --- PROMPT DE ADMINISTRAÇÃO (Para Gerar Novos Códigos) ---
 Copie e envie este comando para o Agente quando precisar de mais códigos:
 "Por favor, execute o script 'generate_codes.py' para gerar um novo lote de 100 códigos de acesso (uso único, validade 30 dias) e atualize a lista neste arquivo."
@@ -48,9 +87,9 @@ IMPORTANTE: Estes códigos são de USO ÚNICO e válidos por 30 DIAS.
 Use um destes códigos no campo 'access_code' da sua requisição:
 
 
-BEOYD386
-4RSRKR9P
-72W4H8P2
+
+
+
 SMKX7WLB
 QMQT2TMM
 3KPQTI45
